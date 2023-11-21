@@ -1,8 +1,8 @@
 #include "sort.h"
 /**
  * swapping - function that swaps 2 ints in an array
- * @i: Pointer to the first integer
- * @j: Pointer to the second integer
+ * @i: it's Pointer to the first integer
+ * @j: it's pointer to the second integer
  */
 void swapping(int *i, int *j)
 {
@@ -14,9 +14,9 @@ void swapping(int *i, int *j)
 /**
  * sift_down - Performs the sift-down operation in the heap sort algorithm
  * @array: Array to be sorted
- * @size: Size of the array
- * @index: Index of the element to be sifted down
- * @heap_size: Size of the heap
+ * @size: it's the size of that array
+ * @index: the index of the element to be sifted down
+ * @heap_size: the size of the heap
  */
 void sift_down(int *array, size_t size, size_t index, size_t heap_size)
 {
