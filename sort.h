@@ -24,6 +24,8 @@ void quick_sort(int *array, size_t size);
 void quick_sort_r(int *array, int l, int h, size_t size);
 int partition_arr(int *array, int l, int h, size_t size);
 void shell_sort(int *array, size_t size);
+void swap_nodes_l(listint_t **l, listint_t *x, listint_t *y);
+void cocktail_sort_list(listint_t **l);
 void counting_sort(int *array, size_t size);
 void merge(int *array, int *l, size_t l_size, int *r, size_t r_size);
 void split_array(int *array, size_t size, int **l, int **r);
