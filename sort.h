@@ -25,6 +25,9 @@ void quick_sort_r(int *array, int l, int h, size_t size);
 int partition_arr(int *array, int l, int h, size_t size);
 void shell_sort(int *array, size_t size);
 void counting_sort(int *array, size_t size);
+void merge(int *array, int *l, size_t l_size, int *r, size_t r_size);
+void split_array(int *array, size_t size, int **l, int **r);
+void merge_sort(int *array, size_t size);
 void sift_down(int *array, size_t size, size_t index, size_t heap_size);
 void swapping(int *i, int *j);
 void heap_sort(int *array, size_t size);
@@ -38,4 +41,3 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
 #endif /* SORT_H */
-
