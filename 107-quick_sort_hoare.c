@@ -10,10 +10,8 @@ void swapping(int *x, int *y)
 	*x = *y;
 	*y = tmp;
 }
-
 /**
 * print_array_alternative - function that print item of array
-*
 * @array: Points to the 1st item
 * @size: Nb of items in the array
 * Return: Void
@@ -46,7 +44,6 @@ void quick_sort_hoare(int *array, size_t size)
 
 	quick_sort_recursive_hoare(array, 0, size - 1, size);
 }
-
 /**
  * quick_sort_recursive_hoare - function for quicksort
  *  using Hoare scheme (recursively)
@@ -68,7 +65,6 @@ void quick_sort_recursive_hoare(int *array, int low, int high, size_t size)
 			quick_sort_recursive_hoare(array, index + 1, high, size);
 	}
 }
-
 /**
  * partition_hoare_arr - Partitions the array using the Hoare scheme
  * @array: the partitioned array
